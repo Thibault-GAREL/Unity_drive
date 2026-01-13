@@ -7,7 +7,9 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)  
 ![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)  
 
-![Gif of the agent](img_drive/Driving-maze-gif.gif)
+<p align="center">
+  <img src="img_drive/Driving-maze-gif.gif" alt="Agent Driving on Circuit" width="500">
+</p>
 
 ## 📝 Project Description
 This project demonstrates **Reinforcement Learning** using **PPO (Proximal Policy Optimization)** in **Unity 3D** to train an AI agent to drive around a race circuit.  
@@ -56,8 +58,8 @@ During training, the agent learns from mistakes such as wall collisions and trac
 Custom Templar character model I created for this project (I wanted to create a model I can use for differente projects. I started with a chess pown, then a animal but I wanted a model without any need of movement so I made a Templar with different color to make team):
 
 <p align="center">
-  <img src="img_greedy/Templar_faceVF.jpg" alt="Templar Model - Front View" width="550">
-  <img src="img_greedy/Templar_perspectiveVF.jpg" alt="Templar Model - Perspective View" width="550">
+  <img src="img_drive/Templar_faceVF.jpg" alt="Templar Model - Front View" width="550">
+  <img src="img_drive/Templar_perspectiveVF.jpg" alt="Templar Model - Perspective View" width="550">
 </p>
 
 ---
