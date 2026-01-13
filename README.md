@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)  
 ![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)  
 
-![Training Progress](img/image.png)
+![Gif of the agent](img_drive/Driving-maze-gif.gif)
 
 ## 📝 Project Description
 This project demonstrates **Reinforcement Learning** using **PPO (Proximal Policy Optimization)** in **Unity 3D** to train an AI agent to drive around a race circuit.  
@@ -35,6 +35,33 @@ The character learns car-like movement (forward, backward, turn left, turn right
 
 ---
 
+## 📊 Example Outputs
+
+### Trained Agent Performance
+
+**Circuit Navigation:**
+<p align="center">
+  <img src="img_drive/Driving-maze-gif.gif" alt="Agent Driving on Circuit" width="700">
+</p>
+
+### Learning Challenges
+During training, the agent learns from mistakes such as wall collisions and track deviations:
+
+**Misaligned AI by crossing walls:**
+<p align="center">
+  <img src="img_drive/Driving-maze-gif-error.gif" alt="Misaligned AI by crossing walls" width="700">
+</p>
+
+### 3D Character Model
+Custom Templar character model I created for this project (I wanted to create a model I can use for differente projects. I started with a chess pown, then a animal but I wanted a model without any need of movement so I made a Templar with different color to make team):
+
+<p align="center">
+  <img src="img_greedy/Templar_faceVF.jpg" alt="Templar Model - Front View" width="550">
+  <img src="img_greedy/Templar_perspectiveVF.jpg" alt="Templar Model - Perspective View" width="550">
+</p>
+
+---
+
 ## 🧠 Training Visualization
 
 The training process shows the agent learning to navigate the circuit:
@@ -43,11 +70,7 @@ The training process shows the agent learning to navigate the circuit:
 - **Vision rays** = Visual perception system for track detection  
 - **Circuit track** = Racing environment with curves and straightaways
 
-Training in action:
-![Training Progress 1](img/image.png)
-
-Advanced training stage:
-![Training Progress 2](img/image.png)
+As training progresses, the agent transitions from making frequent errors (wall collisions, missing checkpoints) to smooth, efficient driving. The vision-based system allows it to perceive track boundaries and adapt its racing line accordingly.
 
 ---
 
